@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Tourism Sites of Japan</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #336699;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    main {
+      padding: 20px;
+    }
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #336699;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gallery - Tourism USA</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="hotel_booking.html">Hotel Booking</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <img src="https://cdn.britannica.com/13/77413-050-95217C0B/Golden-Gate-Bridge-San-Francisco.jpg" alt="Tokyo">
+      </div>
+      <div class="gallery-item">
+        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/240000/240663-San-Francisco.jpg" alt="Kyoto">
+      </div>
+      <div class="gallery-item">
+        <img src="https://www.worldatlas.com/upload/64/de/e3/shutterstock-520729021.jpg" alt="Tokyo">
+      </div>
+      <div class="gallery-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ-zmPYYjAv38WlabXVqIr1Rqye5r_QpFFDw2L4NN8bQ&s" alt="Tokyo">
+      </div>
+      
+     
+      <!-- Add more gallery items with images for other tourism sites -->
+    </div>
+  </main>
+  <br>
+  <footer>
+    <p>&copy; 2024 Japan Tourism. All rights reserved.</p>
+  </footer>
+</body>
+</html>
