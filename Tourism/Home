@@ -1,1 +1,116 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourism Sites of Japan</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-image: url("https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg");
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #2c0b4d;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .tourism-site {
+      margin-bottom: 10px;
+    }
+
+    .tourism-site img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-image: url("https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg");
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 style="color:blue">Tourism Sites of United States</h1>
+
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="hotel_booking.html">Hotel Booking</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2><b> <i>Welcome to USA </b></h2>
+      <p>Tourism in the USA is a diverse and vibrant experience, offering something for every type of traveler. From
+        iconic landmarks like the Statue of Liberty and the Grand Canyon to vibrant cities like New York City, Los
+        Angeles, and Chicago, the USA is a melting pot of culture, history, and natural beauty. Visitors can explore the
+        stunning national parks such as Yellowstone, Yosemite, and the Everglades, each showcasing unique landscapes and
+        abundant wildlife.
+        The USA's rich history is reflected in its historic sites like Independence Hall in Philadelphia, the Freedom
+        Trail in Boston, and the Civil Rights Trail in the South. For beach lovers, coastal destinations like Miami,
+        Hawaii, and California offer sun-drenched shores and water sports. Food enthusiasts can indulge in diverse
+        cuisines from coast to coast, whether it's New England seafood, Tex-Mex flavors, or Southern barbecue.
+
+        The USA's entertainment scene is unparalleled, with Broadway shows in New York City, Hollywood glamour in Los
+        Angeles, and music festivals in Nashville and New Orleans. Whether it's exploring the vibrant nightlife,
+        shopping in world-class malls, or attending sporting events, the USA promises a memorable and exciting journey
+        for travelers from around the globe.</p>
+      <section class="tourism-site">
+        <img src="https://cdn.enjoytravel.com/img/travel-news/most-famous-mount-rushmore.jpg" alt="Tokyo">
+      </section>
+      <!-- Add more sections with images for other tourism sites -->
+  </main>
+  <footer>
+    <p>&copy; 2024 USA Tourism. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
