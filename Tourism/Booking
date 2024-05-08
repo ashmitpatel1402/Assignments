@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking - Tourism Sites of USA</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #336699;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    main {
+      padding: 20px;
+    }
+    .booking-form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .booking-form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .booking-form input[type="text"],
+    .booking-form input[type="email"],
+    .booking-form select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .booking-form input[type="submit"] {
+      background-color: #336699;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .booking-form input[type="submit"]:hover {
+      background-color: #265782;
+    }
+    footer {
+      background-color: #336699;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hotel Booking - Tourism Sites of Japan</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="hotel_booking.html">Hotel Booking</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="booking-form">
+      <h2>Book a Hotel</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="check-in">Check-in Date:</label>
+        <input type="date" id="check-in" name="check-in" required><br>
+        <label for="check-out">Check-out Date:</label>
+        <input type="date" id="check-out" name="check-out" required><br>
+        <label for="rooms">Number of Rooms:</label>
+        <select id="rooms" name="rooms" required>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select><br>
+        <input type="submit" value="Book Now">
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Japan Tourism. All rights reserved.</p>
+  </footer>
+</body>
+</html>
