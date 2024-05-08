@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heritage - Tourism Sites of Japan</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #336699;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .heritage-list {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .heritage-list li {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .heritage-list li img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #336699;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Heritage - Tourism Sites of Japan</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="hotel_booking.html">Hotel Booking</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <ul class="heritage-list">
+      <li>
+        <h2>Grand Canyon, Arizona</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQFOzixyPpnjeevCdynIHSB24d-Qd5_lP3uT-IrC9L&s"
+          alt="Himeji Castle">
+        <p>Marvel at the vastness and beauty of one of the world's most iconic natural wonders, with its breathtaking
+          views, hiking trails, and Colorado River adventures.
+        </p>
+      </li>
+      <li>
+        <h2>New York City, New York</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruBJy1H3_9yvkawULnK3VS7x4OabkalzUbr6ah2hJOA&s"
+          alt="Hiroshima Peace Memorial">
+        <p>Marvel at the vastness and beauty of one of the world's most iconic natural wonders, with its breathtaking
+          views, hiking trails, and Colorado River adventures.s</p>
+      </li>
+      <li>
+        <h2>Las Vegas, Nevada:</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgtgXFe3waa6_bG_4y5kMFC6SGcjxOL6FA4gtWuVJSLg&s"
+          alt="Golden Hall and Five-storied Pagoda">
+        <p>Experience the glitz and glamour of the Las Vegas Strip with its mega casinos, live entertainment, nightlife,
+          shopping, and dining options.</p>
+      </li>
+      <li>
+        <h2>San Francisco, California:</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiK4kvpDg6Lebl_jxn6VfoL3kb1Ndnp2qrzcZtkd7IlQ&s"
+          alt="Hiroshima Peace Memorial">
+        <p>Visit iconic attractions like the Golden Gate Bridge, Alcatraz Island, Fisherman's Wharf, explore diverse
+          neighborhoods, and enjoy scenic views and outdoor activities.</p>
+      </li>
+
+
+
+
+      <!-- Add more list items for other heritage sites -->
+    </ul>
+  </main>
+  <footer>
+    <p>&copy; 2024 USA Tourism. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
